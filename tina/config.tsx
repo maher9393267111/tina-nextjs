@@ -7,12 +7,15 @@ import { ColorPickerInput } from "../components/fields/color";
 import { iconSchema } from "../components/util/icon";
 
 const config = defineConfig({
-  clientId: process.env.NEXT_PUBLIC_TINA_CLIENT_ID!,
-  branch:
-    process.env.NEXT_PUBLIC_TINA_BRANCH! || // custom branch env override
-    process.env.NEXT_PUBLIC_VERCEL_GIT_COMMIT_REF! || // Vercel branch env
-    process.env.HEAD!, // Netlify branch env
-  token: process.env.TINA_TOKEN!,
+  clientId:'745c35a5-e40c-4467-b96c-078935e8e6f7',
+  //process.env.NEXT_PUBLIC_TINA_CLIENT_ID!,
+  branch:'main',
+    //process.env.NEXT_PUBLIC_TINA_BRANCH! || // custom branch env override
+   // process.env.NEXT_PUBLIC_VERCEL_GIT_COMMIT_REF! || // Vercel branch env
+   // process.env.HEAD!, // Netlify branch env
+  
+  token:"c3fed5b8c46aa1f1102f8b1597d0e3aa95b17133",
+  //process.env.TINA_TOKEN!,
   media: {
     // If you wanted cloudinary do this
     // loadCustomStore: async () => {
