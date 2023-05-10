@@ -7,7 +7,7 @@ blocks:
       looking at the landing page, which pulls content from
       `content/pages/home.md`, components from components/blocks, and puts them
       all together in `pages/[filename].tsx`, all based on a config
-      `tina/config.tsx`.
+      `tina/config.tsx`.![](/uploads/unsplash-lylCw4zcA7I.jpg)
     actions:
       - label: Get Started
         type: button
@@ -56,6 +56,7 @@ blocks:
     color: primary
     _template: testimonial
 ---
+
 
 
 
